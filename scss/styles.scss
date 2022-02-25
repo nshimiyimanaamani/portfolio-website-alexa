@@ -55,7 +55,7 @@ img {
         cursor: pointer;
 
         &:hover {
-            color: var(--first-color);
+            color: black;
         }
     }
 }
@@ -116,7 +116,7 @@ img {
         &-menu {
 
             .active-link {
-                color: var(--first-color);
+                color: black;
             }
 
             &.show-menu {
@@ -131,7 +131,7 @@ img {
             font-weight: var(--font-medium);
 
             &:hover {
-                color: var(--first-color);
+                color: black;
             }
         }
 
@@ -159,7 +159,7 @@ img {
             }
 
             &:hover {
-                color: var(--first-color);
+                color: black;
             }
         }
 
@@ -169,10 +169,10 @@ img {
             bottom: .7rem;
             font-size: 1.5rem;
             cursor: pointer;
-            color: var(--first-color);
+            color: black;
 
             &:hover {
-                color: var(--first-color-alt);
+                color: black;
             }
         }
     }
@@ -191,7 +191,7 @@ img {
 
             .home-blob {
                 width: 200px;
-                fill: var(--first-color);
+                fill: black;
 
                 &-img {
                     width: 170px;
@@ -207,10 +207,10 @@ img {
 
             &-icon {
                 font-size: 1.25rem;
-                color: var(--first-color);
+                color: black;
 
                 &:hover {
-                    color: var(--first-color-alt);
+                    color: black;
                 }
             }
         }
@@ -239,7 +239,7 @@ img {
         display: none;
 
         &-button {
-            color: var(--first-color);
+            color: black;
             transition: 0.3s;
 
             &:hover {
@@ -263,14 +263,14 @@ img {
 /* BUTTONS */
 .button {
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: black;
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
 
     &:hover {
-        background-color: var(--first-color-alt);
+        background-color: black;
     }
 
     &-icon {
@@ -291,7 +291,7 @@ img {
 
 .button-white {
     background-color: #fff;
-    color: var(--first-color);
+    color: black;
 
     &:hover {
         background-color: #fff;
@@ -301,11 +301,11 @@ img {
 .button-link {
     padding: 0;
     background-color: transparent;
-    color: var(--first-color);
+    color: black;
 
     &:hover {
         background-color: transparent;
-        color: var(--first-color-alt);
+        color: black;
     }
 }
 
@@ -382,7 +382,7 @@ img {
         .skills-icon,
         .skills-arrow {
             font-size: 2rem;
-            color: var(--first-color);
+            color: black;
         }
 
         .skills-arrow {
@@ -443,7 +443,7 @@ img {
 
     .skills-percentage {
         display: block;
-        background-color: var(--first-color);
+        background-color: black;
     }
 
     .skills-html {
@@ -504,7 +504,7 @@ img {
         cursor: pointer;
 
         &:hover {
-            color: var(--first-color);
+            color: black;
         }
 
         .qualification-icon {
@@ -514,7 +514,7 @@ img {
     }
 
     &-button.qualification-active {
-        color: var(--first-color);
+        color: black;
     }
 }
 
@@ -554,7 +554,7 @@ img {
         display: inline-block;
         width: 13px;
         height: 13px;
-        background-color: var(--first-color);
+        background-color: black;
         border-radius: 50%;
     }
 
@@ -562,7 +562,7 @@ img {
         display: block;
         width: 1px;
         height: 100%;
-        background-color: var(--first-color);
+        background-color: black;
         transform: translate(6px, -7px);
     }
 }
@@ -588,7 +588,7 @@ img {
         .services-icon {
             display: block;
             font-size: 1.5rem;
-            color: var(--first-color);
+            color: black;
             margin-bottom: var(--mb-1);
         }
 
@@ -644,7 +644,7 @@ img {
                     top: 1rem;
                     right: 1rem;
                     font-size: 1.5rem;
-                    color: var(--first-color);
+                    color: black;
                     cursor: pointer;
                 }
 
@@ -657,7 +657,7 @@ img {
                 }
 
                 .services-modal-icon {
-                    color: var(--first-color);
+                    color: black;
                     margin-right: var(--mb-0-5);
                 }
             }
@@ -699,7 +699,7 @@ img {
 
     .swiper-portfolio-icon {
         font-size: 2rem;
-        color: var(--first-color);
+        color: black;
     }
 
     .swiper-button-next {
@@ -716,7 +716,7 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: var(--first-color);
+    background-color: black;
 }
 
 .swiper-button-next,
@@ -786,7 +786,7 @@ img {
     }
 
     .testimonial-icon-star {
-        color: var(--first-color);
+        color: black;
     }
 }
 
@@ -802,7 +802,7 @@ img {
 
         .contact-icon {
             font-size: 2rem;
-            color: var(--first-color);
+            color: black;
             margin-right: var(--mb-0-75);
         }
 
@@ -902,7 +902,7 @@ img {
     position: fixed;
     right: 2.5rem;
     bottom: -20%;
-    background-color: var(--first-color);
+    background-color: black;
     opacity: .8;
     padding: .3rem .5rem;
     border-radius: .4rem;
@@ -915,7 +915,7 @@ img {
     }
 
     &:hover {
-        background-color: var(--first-color-alt);
+        background-color: black;
     }
 }
 
@@ -1173,7 +1173,7 @@ img {
 
                 .home-blob {
                     width: 270px;
-                    fill: var(--first-color);
+                    fill: black;
     
                     &-img {
                         width: 170px;
@@ -1266,7 +1266,7 @@ img {
 
         .home-blob {
             width: 320px !important;
-            fill: var(--first-color);
+            fill: black;
 
             &-img {
                 width: 170px;

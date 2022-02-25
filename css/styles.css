@@ -65,7 +65,7 @@
 /* Variables Dark theme */
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: hsl(var(--hue-color), 30%, 8%);
+   hsl(var(--hue-color), 30%, 8%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
@@ -129,7 +129,7 @@ img {
 }
 
 .nav-btns .change-theme:hover {
-  color: var(--first-color);
+  color: black;
 }
 
 /* REUSABLE CSS CLASSES */
@@ -186,7 +186,7 @@ img {
 }
 
 .header .nav-menu .active-link {
-  color: var(--first-color);
+  color: black;
 }
 
 .header .nav-menu.show-menu {
@@ -200,7 +200,7 @@ img {
 }
 
 .header .nav-logo:hover, .header .nav-toggle:hover {
-  color: var(--first-color);
+  color: black;
 }
 
 .header .nav-toggle {
@@ -228,7 +228,7 @@ img {
 }
 
 .header .nav-link:hover {
-  color: var(--first-color);
+  color: black;
 }
 
 .header .nav-close {
@@ -237,11 +237,11 @@ img {
   bottom: .7rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color);
+  color: black;
 }
 
 .header .nav-close:hover {
-  color: var(--first-color-alt);
+  color: black;
 }
 
 /* HOME */
@@ -257,7 +257,7 @@ img {
 
 .home-container .home-content .home-img .home-blob {
   width: 200px;
-  fill: var(--first-color);
+  fill: black;
 }
 
 .home-container .home-content .home-img .home-blob-img {
@@ -272,11 +272,11 @@ img {
 
 .home-container .home-content .home-social-icon {
   font-size: 1.25rem;
-  color: var(--first-color);
+  color: black;
 }
 
 .home-container .home-content .home-social-icon:hover {
-  color: var(--first-color-alt);
+  color: black;
 }
 
 .home-container .home-content .home-data {
@@ -303,7 +303,7 @@ img {
 }
 
 .home-container .home-scroll-button {
-  color: var(--first-color);
+  color: black;
   transition: 0.3s;
 }
 
@@ -325,7 +325,7 @@ img {
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: black;
   color: #fff;
   padding: 1rem;
   border-radius: .5rem;
@@ -333,7 +333,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 .button-icon {
@@ -353,7 +353,7 @@ img {
 
 .button-white {
   background-color: #fff;
-  color: var(--first-color);
+  color: black;
 }
 
 .button-white:hover {
@@ -363,12 +363,12 @@ img {
 .button-link {
   padding: 0;
   background-color: transparent;
-  color: var(--first-color);
+  color: black;
 }
 
 .button-link:hover {
   background-color: transparent;
-  color: var(--first-color-alt);
+  color: black;
 }
 
 /* ABOUT */
@@ -442,7 +442,7 @@ img {
 .skills-container-header .skills-icon,
 .skills-container-header .skills-arrow {
   font-size: 2rem;
-  color: var(--first-color);
+  color: black;
 }
 
 .skills-container-header .skills-arrow {
@@ -496,7 +496,7 @@ img {
 
 .skills-container .skills-percentage {
   display: block;
-  background-color: var(--first-color);
+  background-color: black;
 }
 
 .skills-container .skills-html {
@@ -557,7 +557,7 @@ img {
 }
 
 .qualification-tabs-button:hover {
-  color: var(--first-color);
+  color: black;
 }
 
 .qualification-tabs-button .qualification-icon {
@@ -566,7 +566,7 @@ img {
 }
 
 .qualification-tabs-button.qualification-active {
-  color: var(--first-color);
+  color: black;
 }
 
 .qualification [data-content] {
@@ -606,7 +606,7 @@ img {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color: black;
   border-radius: 50%;
 }
 
@@ -614,7 +614,7 @@ img {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  background-color: black;
   transform: translate(6px, -7px);
 }
 
@@ -641,7 +641,7 @@ img {
 .services-container .services-content .services-icon {
   display: block;
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: black;
   margin-bottom: var(--mb-1);
 }
 
@@ -699,7 +699,7 @@ img {
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: black;
   cursor: pointer;
 }
 
@@ -712,7 +712,7 @@ img {
 }
 
 .services-container .services-content .services-modal-content .services-modal-icon {
-  color: var(--first-color);
+  color: black;
   margin-right: var(--mb-0-5);
 }
 
@@ -751,7 +751,7 @@ img {
 
 .portfolio-container .swiper-portfolio-icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: black;
 }
 
 .portfolio-container .swiper-button-next {
@@ -767,7 +767,7 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--first-color);
+  background-color: black;
 }
 
 .swiper-button-next,
@@ -837,7 +837,7 @@ img {
 }
 
 .testimonial-data .testimonial-icon-star {
-  color: var(--first-color);
+  color: black;
 }
 
 /* CONTACT ME */
@@ -854,7 +854,7 @@ img {
 
 .contact-container .contact-information .contact-icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: black;
   margin-right: var(--mb-0-75);
 }
 
@@ -869,7 +869,7 @@ img {
 }
 
 .contact-container .contact-content {
-  background-color: var(--input-color);
+  background-color: white;
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
 }
@@ -881,7 +881,7 @@ img {
 
 .contact-container .contact-content .contact-input {
   width: 100%;
-  background-color: var(--input-color);
+  background-color:white;
   color: var(--text-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -896,7 +896,7 @@ img {
 }
 
 .footer-bg {
-  background-color: var(--first-color-second);
+  background-color:black;
   padding: 2rem 0 3rem;
 }
 
@@ -951,7 +951,7 @@ img {
   position: fixed;
   right: 2.5rem;
   bottom: -20%;
-  background-color: var(--first-color);
+  background-color: black;
   opacity: .8;
   padding: .3rem .5rem;
   border-radius: .4rem;
@@ -965,7 +965,7 @@ img {
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 /* Show scroll */
@@ -1081,7 +1081,7 @@ img {
   .portfolio-content-imgAlt,
   .project-container-imgAlt {
     width: 225px;
-    height: 185px;
+    height: 280px;
     align-self: center;
     margin-top: 25px;
   }
@@ -1182,7 +1182,7 @@ img {
   }
   .home-container .home-content .home-img .home-blob {
     width: 270px;
-    fill: var(--first-color);
+    fill: black;
   }
   .home-container .home-content .home-img .home-blob-img {
     width: 170px;
@@ -1192,7 +1192,7 @@ img {
   }
   .about-container-imgAlt {
     width: 350px;
-    height: 250px;
+    height: 350px;
   }
   .about-container-data-description {
     text-align: initial;
@@ -1252,7 +1252,7 @@ img {
   }
   .home-img .home-blob {
     width: 320px !important;
-    fill: var(--first-color);
+    fill: black;
   }
   .home-img .home-blob-img {
     width: 170px;
